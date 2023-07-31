@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #dadbd3;
+}
+
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  width: 90vw;
+  height: 85vh;
+  box-shadow: -1px 4px 20px -6px #333;
+}
+
+@media (max-width: 600px) {
+  .app__body {
+    display: grid;
+    width: 90vw;
+    grid-template-rows: 300px 300px;
+  }
+}

@@ -1,0 +1,111 @@
+.chat{
+    position: relative;
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png")
+}
+
+.chat__header{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    padding: 10px;
+}
+
+.header__info{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.header__info > p{
+    color: gray;    
+}
+
+.header__icons{
+    display: flex;
+    min-width: 70px;
+}
+
+.chat__footer{
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap:10px
+}
+
+.chat__body{
+    overflow-y: overlay;
+    flex: 1;
+    padding: 25px;
+}
+
+.body__mess{
+    position: relative;
+    background-color:#fff;
+    width: fit-content;
+    padding: 7px;
+    border-radius: 9px;
+    margin-bottom: 20px;
+}
+
+.user{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.body__mess .name{
+    position: absolute;
+    top: -19px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.body__mess .time{
+    display: block;
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: auto;
+    font-size: 11px;
+    color: gray;
+}
+
+
+.chat__footer > form{
+    flex: 1;
+    display: flex;
+    gap: 7px;
+}
+
+.chat__footer > form > input{
+    flex: 1;
+    padding: 5px 10px;
+    border-radius: 22px;
+    font-size: 15px;
+    color: #454545;
+    outline:0;
+    border: 2px solid #ddd;
+}
+
+.chat__footer > form > input:focus{
+    box-shadow: 0 0 1px 3px #008ca5;
+}
+
+.chat__footer > form > button{
+    display: none;
+    padding: 5px 10px;
+    border-radius: 22px;
+    font-size: 15px;
+    color: #333;
+    outline:0;
+    border: 2px solid #ddd;
+}
+
+.chat__footer > form > button:hover{
+    background-color: #cacaca;
+}
+
+.chat__footer svg{
+    color: gray;
+}

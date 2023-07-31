@@ -1,0 +1,23 @@
+.sidebarchat{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1.6px solid #ddd;
+    cursor: pointer;
+}
+
+.sidebarchat:hover{
+    background-color: #ededed;
+}
+
+.sidebarchat__info{
+    margin-left: 10px;
+}
+
+.sidebarchat__info > h3{
+    margin-bottom: 4px;
+}
+
+.sidebarchat__info> p{
+    color: gray;
+}
